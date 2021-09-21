@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    background-color: #181818;
+    background-color: black;
     font-family: 'Roboto', sans-serif;
 }
 /* utility */
@@ -20,11 +20,7 @@ body{
 
 
 
-
-
 /* header */
-
-
 
 
 
@@ -51,12 +47,15 @@ body{
     padding: .3rem;
 }
 
+.pulsanti-header{
+    margin-bottom: -80px;
+    margin-right: 10px;
+}
 
-
-
-
-
-
+.pulsanti-header button{
+    background-color: #212324;
+    color: white;
+}
 
 
 
@@ -73,22 +72,34 @@ body{
     align-items: center;
 }
 
+.freccia2 , .freccia{
+    font-size: small;
+}
+
+.freccia1 img , .freccia2 img{
+    height: 40px;
+}
+
 .freccia1{
-    align-items: center;
+    margin-left: 2rem;
+}
+
+.freccia2{
+    margin-right: 2rem;
 }
 
 .container {
    justify-content: space-around;
-   margin-top: -3.5rem;
+   margin-top: 1.5rem;
    flex-wrap: wrap;
-   padding: 110px;
+   padding: 50px;
 }
 .image_wrapper {
     position: relative;
 }
 
 .image_wrapper img , .video{
-    width: 215px;
+    width: 240px;
     
 }
 
@@ -97,7 +108,6 @@ body{
 }
 
 .play {
-    width: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -112,4 +122,25 @@ body{
 
 .play span{
     padding-left: 0.4rem;
+    padding-right: 0.2rem;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+.site_footer{
+    background-color: #212324;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+    flex-wrap: wrap;
 }
