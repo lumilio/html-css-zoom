@@ -31,7 +31,7 @@ body{
     background-color: #dddddd;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0.5rem;
+    width: 100%;
     flex-wrap: wrap;
     color: black;
 }
@@ -142,15 +142,14 @@ body{
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0.5rem;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .p2{
     text-align: center;
-    padding: 10px;
     padding-left: 35px;
-    font-size: small;
+    font-size: smaller;
 }
 
 .p2 a{
@@ -159,5 +158,11 @@ body{
 }
 
 .p2 img{
-    max-width: 20px;
+    max-width: 17px;
+}
+
+.boxf3 #end{
+    color: red;
+    background-color: #4a4b4d;
+    padding: 25px;
 }
