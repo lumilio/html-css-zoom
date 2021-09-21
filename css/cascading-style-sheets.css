@@ -40,7 +40,7 @@ body{
     color: black;
 }
 .logo img{
-    width: 10px;
+    width: 12px;
 }
 .logo,.menu{
     flex-grow: 2;
@@ -71,13 +71,19 @@ body{
 
 
 .container {
-    justify-content: space-around;
+   justify-content: space-around;
    margin-top: 1rem;
    flex-wrap: wrap;
+   padding: 70px;
 }
 .image_wrapper {
     position: relative;
 }
+
+.image_wrapper img , .video{
+    width: 220px;
+}
+
 .play_grande {
         position: absolute;
     left: 50%;
@@ -93,8 +99,8 @@ body{
     align-items: center;
     visibility: hidden;
 }
-.play_grande i {
-    vertical-align: middle;
+.play img {
+    width: 15px;
 }
 
 .play {
@@ -114,7 +120,4 @@ body{
 .testo h3 {
     display: flex;
     justify-content: space-between;
-}
-.video:hover .hidden, .video:hover .hidden {
-    visibility:visible; 
 }
