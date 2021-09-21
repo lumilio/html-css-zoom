@@ -50,6 +50,7 @@ body{
 .pulsanti-header{
     margin-bottom: -80px;
     margin-right: 10px;
+    margin-left: -100px;
 }
 
 .pulsanti-header button{
@@ -143,4 +144,20 @@ body{
     align-items: center;
     padding: 0 0.5rem;
     flex-wrap: wrap;
+}
+
+.p2{
+    text-align: center;
+    padding: 10px;
+    padding-left: 35px;
+    font-size: small;
+}
+
+.p2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.p2 img{
+    max-width: 20px;
 }
