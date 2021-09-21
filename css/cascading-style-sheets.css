@@ -1,11 +1,133 @@
+/* general */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #181818;
+    color: white;
+}
+/* utility */
+.flex{
+    display: flex;
+}
+.hidden {
+    visibility: hidden;
+}
+/* header */
 
-.clearfix::after{
-    content: '';
-    clear: both;
-    display: table;
+.site_header{
+    background-color: #dddddd;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+}
+.logo img{
+    width: 100px;
+    filter: invert(1) hue-rotate(183deg) saturate(5);
+}
+.logo,.menu{
+    flex-grow: 2;
+}
+.search{
+    align-items: center;
+    flex-grow: 3;
+}
+input[type="search"]{
+    background-color: #181818;
+    border: 1px solid #2a2a2a;
+    width: 80%;
+    padding:1rem;
+}
+.search_icon{
+    background-color: #2a2a2a;
+    padding: 1rem;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-right: 1.5rem;
+}
+.microphone{
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    text-align: end;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+/* main */
+
+
+
+
+
+
+
+
+
+.container {
+    justify-content: space-around;
+   margin-top: 1rem;
+   flex-wrap: wrap;
+}
+.image_wrapper {
+    position: relative;
+}
+.play_grande {
+        position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.616);
+    text-align: center;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.play_grande i {
+    vertical-align: middle;
+}
+
+.play {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    background-color: #1818188a;
+}
+.testo p {
+    color: gray;
+}
+.testo h3 {
+    display: flex;
+    justify-content: space-between;
+}
+.video:hover .hidden, .video:hover .hidden {
+    visibility:visible; 
 }
